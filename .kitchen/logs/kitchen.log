@@ -1,0 +1,29 @@
+I, [2023-07-10T11:32:03.676700 #9546]  INFO -- Kitchen: -----> Starting Test Kitchen (v3.2.2)
+E, [2023-07-10T11:32:03.677983 #9546] ERROR -- Kitchen: ------Exception-------
+E, [2023-07-10T11:32:03.678031 #9546] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2023-07-10T11:32:03.678046 #9546] ERROR -- Kitchen: Message: Kitchen YAML file /home/chef/chef-repo/kitchen.yml does not exist.
+E, [2023-07-10T11:32:03.678060 #9546] ERROR -- Kitchen: ----------------------
+E, [2023-07-10T11:32:03.678074 #9546] ERROR -- Kitchen: ------Backtrace-------
+E, [2023-07-10T11:32:03.678088 #9546] ERROR -- Kitchen: /opt/chef-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.2.2/lib/kitchen/loader/yaml.rb:65:in `read'
+E, [2023-07-10T11:32:03.678103 #9546] ERROR -- Kitchen: /opt/chef-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.2.2/lib/kitchen/config.rb:153:in `data'
+E, [2023-07-10T11:32:03.678117 #9546] ERROR -- Kitchen: /opt/chef-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.2.2/lib/kitchen/config.rb:131:in `suites'
+E, [2023-07-10T11:32:03.678130 #9546] ERROR -- Kitchen: /opt/chef-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.2.2/lib/kitchen/config.rb:183:in `filter_instances'
+E, [2023-07-10T11:32:03.678144 #9546] ERROR -- Kitchen: /opt/chef-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.2.2/lib/kitchen/config.rb:142:in `build_instances'
+E, [2023-07-10T11:32:03.678158 #9546] ERROR -- Kitchen: /opt/chef-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.2.2/lib/kitchen/config.rb:116:in `instances'
+E, [2023-07-10T11:32:03.678172 #9546] ERROR -- Kitchen: /opt/chef-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.2.2/lib/kitchen/command.rb:109:in `filtered_instances'
+E, [2023-07-10T11:32:03.678186 #9546] ERROR -- Kitchen: /opt/chef-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.2.2/lib/kitchen/command.rb:139:in `parse_subcommand'
+E, [2023-07-10T11:32:03.678199 #9546] ERROR -- Kitchen: /opt/chef-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.2.2/lib/kitchen/command/action.rb:34:in `block in call'
+E, [2023-07-10T11:32:03.678212 #9546] ERROR -- Kitchen: /opt/chef-workstation/embedded/lib/ruby/3.0.0/benchmark.rb:293:in `measure'
+E, [2023-07-10T11:32:03.678224 #9546] ERROR -- Kitchen: /opt/chef-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.2.2/lib/kitchen/command/action.rb:33:in `call'
+E, [2023-07-10T11:32:03.678236 #9546] ERROR -- Kitchen: /opt/chef-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.2.2/lib/kitchen/cli.rb:52:in `perform'
+E, [2023-07-10T11:32:03.678249 #9546] ERROR -- Kitchen: /opt/chef-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.2.2/lib/kitchen/cli.rb:198:in `block (2 levels) in <class:CLI>'
+E, [2023-07-10T11:32:03.678281 #9546] ERROR -- Kitchen: /opt/chef-workstation/embedded/lib/ruby/gems/3.0.0/gems/thor-1.2.1/lib/thor/command.rb:27:in `run'
+E, [2023-07-10T11:32:03.678291 #9546] ERROR -- Kitchen: /opt/chef-workstation/embedded/lib/ruby/gems/3.0.0/gems/thor-1.2.1/lib/thor/invocation.rb:127:in `invoke_command'
+E, [2023-07-10T11:32:03.678300 #9546] ERROR -- Kitchen: /opt/chef-workstation/embedded/lib/ruby/gems/3.0.0/gems/thor-1.2.1/lib/thor.rb:392:in `dispatch'
+E, [2023-07-10T11:32:03.678309 #9546] ERROR -- Kitchen: /opt/chef-workstation/embedded/lib/ruby/gems/3.0.0/gems/thor-1.2.1/lib/thor/base.rb:485:in `start'
+E, [2023-07-10T11:32:03.678318 #9546] ERROR -- Kitchen: /opt/chef-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.2.2/bin/kitchen:11:in `block in <top (required)>'
+E, [2023-07-10T11:32:03.678327 #9546] ERROR -- Kitchen: /opt/chef-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.2.2/lib/kitchen/errors.rb:183:in `with_friendly_errors'
+E, [2023-07-10T11:32:03.678336 #9546] ERROR -- Kitchen: /opt/chef-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.2.2/bin/kitchen:11:in `<top (required)>'
+E, [2023-07-10T11:32:03.678345 #9546] ERROR -- Kitchen: /usr/bin/kitchen:390:in `load'
+E, [2023-07-10T11:32:03.678353 #9546] ERROR -- Kitchen: /usr/bin/kitchen:390:in `<main>'
+E, [2023-07-10T11:32:03.678370 #9546] ERROR -- Kitchen: ----End Backtrace-----
